@@ -1,0 +1,23 @@
+{
+  "name": "datastructure",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ewinyeh0801-source/datastructure#readme",
+  "bugs": {
+    "url": "https://github.com/ewinyeh0801-source/datastructure/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewinyeh0801-source/datastructure.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
