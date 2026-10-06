@@ -1,10 +1,13 @@
-function sum(n){     var result=0;
-    let index = 1; 
-    
-do{       result += index;
-    index++;
+function sum(n){    
+   var result=0;
+  for(let index = 1;index<=n;index++){
+    result += index;   
+  }
 
- }while(index<=n);
-      return result; 
-    }
-      console.log("1+2+...+1000000="+sum(1000000)); 
+  var sign = 1; 
+  result=0;
+  for(let index = 1; index <= n; index++){
+    result =result+index*sign;
+    sign *= -1;
+  }
+}
